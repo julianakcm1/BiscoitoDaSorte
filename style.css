@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-body: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  --bg-lucky: #E4EDF1;
+  --bg-button: #FF9500;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --fc-h1-p: #34355B;
+
+  --ff-lucky: 'Dancing Script', cursive;
+  --ff-p-button: 'DM Sans', sans-serif;
+  --ff-h1: 'Montserrat', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background: var(--bg-body);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  margin-top: 5rem; /* AJUSTE */
+  padding: 4.8rem 6.4rem 6.4rem;
+  background: var(--white);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: .5rem;
+
+  width: min(42.8rem, 90%);
+}
+
+h1 {
+  font-family: var(--ff-h1);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+}
+
+h1, .screen1 p {
+  color: var(--fc-h1-p);
+}
+
+/* SCREEN1 */
+.screen1 h1 {
+  margin-bottom: 1.4rem;
+}
+
+.screen1 p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.screen1 img:hover {
+  cursor: pointer;
+  animation: tremer 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* SCREEN2 */
+.screen2 h1 {
+  margin-bottom: 1.7rem;
+}
+
+.screen2 p {
+  box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);
+  background-color: var(--bg-lucky);
+  padding: 1rem;
+  
+  font-family: var(--ff-lucky);
+  color: var(--black);
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  text-align: center;
+
+  animation: zoom 1.3s;
+  animation-delay: 0ms;
+  animation-timing-function: linear;
+}
+
+.screen2 img {
+  margin: 1.7rem 0;
+}
+
+.screen2 .container {
+  text-align: center;
+}
+
+.screen2 button {
+  border: none;
+  background-color: var(--bg-button);
+  color: var(--white);
+  font-family: var(--ff-p-button);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1.6rem;
+  width: 17.4rem;
+}
+
+.screen2 button:hover{
+  background-color: var(--fc-h1-p);
+  cursor: pointer;
+  transition: background 1s;
+}
+
+/* KEYFRAMES */
+@keyframes tremer { /* SCREEN1 */
+  0% {
+    transform:translate(0);
+  }
+  10% {
+      transform:translate(-2px,-2px);
+  }
+  20% {
+      transform:translate(2px,-2px);
+  }
+  30% {
+      transform:translate(-2px,2px);
+  }
+  40% {
+      transform:translate(2px,2px);
+  }
+  50% {
+      transform:translate(-2px,-2px);
+  }
+  60% {
+      transform:translate(2px,-2px);
+  }
+  70% {
+      transform:translate(-2px,2px);
+  }
+  80% {
+      transform:translate(-2px,-2px);
+  }
+  90% {
+      transform:translate(2px,-2px);
+  }
+  100% {
+      transform:translate(0);
+  }
+}
+
+@keyframes zoom { /* SCREEN2 */
+  0% {
+    transform: scale(0) translateY(600px);
+  }
+  50% {
+    transform: scale(0.5) translateY(300px);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+  }
+}
