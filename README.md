@@ -2,17 +2,14 @@
 
 <img src="https://github.com/julianakcm1/BiscoitoDaSorte/assets/54086293/76b0addf-756f-4ded-8620-87a404d71332" width=150 height=150>
   
-# BiscoitoDaSorte
-<b>Curso Explorer - Rocketseat - Stage 5 - Desafio 1</b> <br>
-<b>Avançando no JavaScript</b>
+# Fortune Cookie
 
 </div>
 
 <p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contato">Contato</a><br><br>
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Contact</a><br><br>
 </p>
 
 <div align="center">
@@ -25,19 +22,21 @@
 
 <div id="-projeto">
 
-## :computer: Projeto
+## :computer: Project
   
-Para esse desafio, foram usados os conceitos apresentados no stage 5 (além dos demais conceitos vistos nos módulos anteriores), como:
-- Animações
-- Manipulando a DOM
+In the Fortune Cookie project, when the user clicks on the cookie, a phrase will appear.
+
+Concepts were used, such as:
+- Animations
+- Manipulating the DOM
 - Callbacks
-- Eventos
+- Events
 
 </div>
 
 <div id="-tecnologias">
   
-## :rocket: Tecnologias
+## :rocket: Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -46,21 +45,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git
 - Github
-- Figma
-
-</div>
-
-<div id="-layout">
-
-## :memo: Layout
-
-Para a visualização do layout do projeto, basta clicar [aqui](https://www.figma.com/file/M6z8Jnyp6PDyKKfBUxe5W6/Biscoito-da-Sorte-(Community)?node-id=1%3A2&t=g1yvBzGFwgkGVagc-0).
+- [Figma](https://www.figma.com/design/M6z8Jnyp6PDyKKfBUxe5W6/Fortune-Cookie?node-id=1%3A2&t=8IGWz2stBdNWHxOk-1)
 
 </div>
 
 <div id="-contato">
 
-## :envelope: Contato
+## :envelope: Contact
 
 - E-mail: julianakcmelo@gmail.com
 - LinkedIn: https://www.linkedin.com/in/julianakcmelo/
